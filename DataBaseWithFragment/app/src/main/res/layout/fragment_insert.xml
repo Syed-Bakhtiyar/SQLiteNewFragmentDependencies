@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.syedinkisarahmed.databasewithfragment.InsertFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+       <LinearLayout
+
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <EditText
+           android:background="#fff"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter Name Here"
+           android:gravity="center"
+           android:id="@+id/name"
+           android:textSize="25sp"/>
+       <EditText
+           android:background="#fff"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter Roll Number"
+           android:textSize="25sp"
+           android:gravity="center"
+           android:id="@+id/roll"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Submit"
+           android:textSize="25sp"
+           android:id="@+id/submit"/>
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/aa"
+           />
+
+
+
+
+   </LinearLayout>
+
+</FrameLayout>
